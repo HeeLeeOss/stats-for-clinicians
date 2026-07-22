@@ -259,7 +259,7 @@ machine-readable provenance}. That intersection is the open lane.
 - **Data boundary.** The model never invents "realistic" patient data or reconstructs identifiable
   pseudo-IPD; synthetic-by-construction only, from open figures, labelled as such.
 
-(Per Elyos rules: model is behind a thin, vendor-neutral provider interface; donated lane = human
+(Per Hee-Lee Oss rules: model is behind a thin, vendor-neutral provider interface; donated lane = human
 runs their own agent; any funded drafting runs via `packages/runner` under a hard budget cap; keys
 never enter logs/receipts.)
 
@@ -313,7 +313,7 @@ never enter logs/receipts.)
 - **A reusable clinical-stats explainer engine** — the template + claims-ledger + data-manifest +
   reproducible-figure harness + review-gate workflow is domain-general. Re-pointed at other high-
   stakes literatures (cardiology trial reading, diagnostic-test stats/likelihood ratios, public-
-  health screening), it becomes Elyos's standard "correct-first, reproducible, expert-gated explainer
+  health screening), it becomes Hee-Lee Oss's standard "correct-first, reproducible, expert-gated explainer
   factory."
 - **`systematic-review-assist`** — the HR-from-KM-curve extraction skills (CEBM-style) and the
   forest-plot/heterogeneity explainers feed directly into a systematic-review/meta-analysis assist

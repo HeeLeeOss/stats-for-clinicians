@@ -25,7 +25,7 @@
   "resources": [
     "PLAN.md — Scope (out of scope: patient-facing content); Quality gates (standing escalation to riskTier: high)",
     "TASKS.md — patientfacing-022 backlog row (GATED marker)",
-    "Elyos good-deed definition: riskTier:high requires credentialed expert sign-off before work begins"
+    "Hee-Lee Oss good-deed definition: riskTier:high requires credentialed expert sign-off before work begins"
   ],
   "output": "GATED. If prerequisites are met: patient-facing plain-language explainer versions, oncologist + patient-advocate signed-off, with structural 'not medical advice' frame. Until prerequisites are met: no output; this task must not be started.",
   "requestor": "TO BE SECURED",

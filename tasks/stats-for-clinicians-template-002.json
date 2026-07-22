@@ -22,8 +22,8 @@
     "Template tooling is committed with golden valid/invalid fixtures exercised in CI; pnpm build && pnpm test && pnpm lint pass; commit DCO signed-off."
   ],
   "resources": [
-    "C:\\code\\elyos\\planning\\projects\\stats-for-clinicians\\PLAN.md",
-    "C:\\code\\elyos\\packages\\schema\\src\\schemas.ts",
+    "C:\\code\\hee-lee-oss\\planning\\projects\\stats-for-clinicians\\PLAN.md",
+    "C:\\code\\hee-lee-oss\\packages\\schema\\src\\schemas.ts",
     "Reporting guidelines: CONSORT, SAMPL, STROBE, ICH E9; EQUATOR network",
     "Recognized survival-analysis methods literature and textbooks (cited per-claim, never copied)",
     "Open/synthetic example data: simulated survival datasets; license-verified open teaching survival datasets; open-access aggregate survival summaries"

@@ -6,7 +6,7 @@ Clinicians read trial results every week and act on them, but the **statistics t
 
 **Definition of shipped:** explainers), with 100% reproducible worked examples, complete provenance, verified open-data licensing, accessibility met, and a structural "not clinical advice" frame — **adopted/used by a named beneficiary** (taught from / embedded in a curriculum, journal-club kit, or advocacy
 
-This is an **Elyos** good-deed project. Contributors pull a task, do it with their own coding agent, and open a PR. Platform: https://github.com/jdev1977/elyos
+This is an **Hee-Lee Oss** good-deed project. Contributors pull a task, do it with their own coding agent, and open a PR. Platform: https://github.com/jdev1977/hee-lee-oss
 
 ## Plan
 - [PLAN.md](./PLAN.md) — robust enterprise plan (vision, architecture, roadmap, risks; includes an applied-improvements appendix + review sign-off)
@@ -15,8 +15,8 @@ This is an **Elyos** good-deed project. Contributors pull a task, do it with the
 
 ## Contribute
 ```bash
-elyos browse
-elyos next --repo Elyos-Projects/stats-for-clinicians --no-fork
+hee-lee-oss browse
+hee-lee-oss next --repo Hee-Lee-Oss-Projects/stats-for-clinicians --no-fork
 ```
 
 ## Licensing & review

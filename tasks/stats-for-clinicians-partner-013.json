@@ -11,7 +11,7 @@
   "deliverable": "document",
   "tokenEstimate": "small",
   "status": "open",
-  "context": "The Elyos definition of shipped requires that explainers be adopted and used by a named beneficiary — verifiedNeed: false is the current portfolio-wide status until a training program, education committee, journal-club network, OER repository, or advocacy organization confirms it will adopt/teach from the explainers. This task follows the outreach work in outreach-008 and aims to convert an outreach thread into a named, confirmed adoption commitment. Once a beneficiary confirms adoption, all tasks for the adopted explainer set should have requestor set and verifiedNeed updated to true.",
+  "context": "The Hee-Lee Oss definition of shipped requires that explainers be adopted and used by a named beneficiary — verifiedNeed: false is the current portfolio-wide status until a training program, education committee, journal-club network, OER repository, or advocacy organization confirms it will adopt/teach from the explainers. This task follows the outreach work in outreach-008 and aims to convert an outreach thread into a named, confirmed adoption commitment. Once a beneficiary confirms adoption, all tasks for the adopted explainer set should have requestor set and verifiedNeed updated to true.",
   "objective": "Secure a documented adoption commitment from a named training program, education committee, journal-club network, OER repository, or advocacy organization that confirms it will adopt and use the stats-for-clinicians explainers, and update the relevant task records to reflect verifiedNeed: true and a named requestor.",
   "acceptanceCriteria": [
     "A named training program, education committee, journal-club network, OER repository, or advocacy organization has confirmed in writing (email, issue comment, or equivalent documented exchange) that it will adopt and use the explainers.",
@@ -25,7 +25,7 @@
     "tasks/stats-for-clinicians-outreach-008.json — partner shortlist and outreach log (prerequisite)",
     "PLAN.md — Problem & beneficiaries; Definition of Shipped; Success metrics",
     "TASKS.md — partner-013 acceptance criteria",
-    "Elyos good-deed definition: verifiedNeed and delivered bar"
+    "Hee-Lee Oss good-deed definition: verifiedNeed and delivered bar"
   ],
   "output": "A committed adoption evidence artifact documenting a named beneficiary's confirmed adoption of the explainer set, plus updated task files setting verifiedNeed: true and requestor for the adopted tasks. Unlocks M1 definition of done.",
   "requestor": "TO BE SECURED",

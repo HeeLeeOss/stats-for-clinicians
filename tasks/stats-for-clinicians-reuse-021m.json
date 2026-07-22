@@ -17,7 +17,7 @@
     ">= 3 verifiable external adoption/reuse events are documented; each event is one of: a syllabus or journal-club kit that embeds a specific explainer (with a URL or dated document); an OER repository acceptance record; a documented training event or curriculum module that uses the content.",
     "Each event is externally verifiable — it links to a publicly accessible artifact (URL, repository record, published syllabus, meeting minutes) and cannot be verified only by the project team's assertion.",
     "Each event record includes: the beneficiary name, the event type, the consumed explainer(s) and release version, a link to the verification artifact, and the date.",
-    "Each event is committed as an adoption evidence artifact in the project repo (e.g. outcomes/<event-id>.json) following the Elyos delivered-outcome artifact format.",
+    "Each event is committed as an adoption evidence artifact in the project repo (e.g. outcomes/<event-id>.json) following the Hee-Lee Oss delivered-outcome artifact format.",
     "The steward has reviewed and committed each evidence artifact; no self-reported-only use counts.",
     "The cumulative adoption count is reflected in the project README or equivalent summary and reported against the success metrics from PLAN.md."
   ],

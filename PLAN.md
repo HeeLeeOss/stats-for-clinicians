@@ -74,7 +74,7 @@ is a recognized, long-standing problem. We treat that general need as real. The 
 per-output need is TO BE SECURED**: we have **not** yet confirmed a named training program,
 education committee, journal-club network, OER repository, or advocacy organization that has agreed
 to *adopt and use* these explainers. Until a named beneficiary confirms adoption, every task carries
-`verifiedNeed: false`. This is load-bearing under the Elyos bar ("delivered, not merged"): a polished
+`verifiedNeed: false`. This is load-bearing under the Hee-Lee Oss bar ("delivered, not merged"): a polished
 explainer library that no one teaches from is **not** a delivered good deed.
 
 **Partner / requestor.** TO BE SECURED. Candidate channels (none assumed, all require outreach):
@@ -224,7 +224,7 @@ well-tested, MIT figure/interactive toolkit. It hosts no patient data and runs n
 - `specVersions { template, curriculumMap, toolkit, datasets[] }`
 
 **LLM authoring stance (model-neutral, structured, source-grounded).** Drafting uses an LLM behind
-a thin provider interface (Elyos donated lane: the human runs their own agent; a future funded lane
+a thin provider interface (Hee-Lee Oss donated lane: the human runs their own agent; a future funded lane
 runs via `packages/runner` with a hard budget cap). The model **drafts** prose and **proposes**
 worked examples, but it is **never the authority on a statistical fact or a number**: every claim
 must trace to a recorded authoritative source, every figure must be produced by the committed
@@ -232,7 +232,7 @@ reproducibility script (deterministic code, not model output), and the biostatis
 the final accuracy authority. No model-emitted statistic ships unverified. (Anthropic Claude is the
 first-supported reasoning model behind that interface; the seam is vendor-agnostic.)
 
-**Tech stack.** TypeScript, ESM, pnpm workspaces (Elyos conventions). Explainers authored in
+**Tech stack.** TypeScript, ESM, pnpm workspaces (Hee-Lee Oss conventions). Explainers authored in
 Markdown; the figure/interactive toolkit is small Node/TS packages with minimal dependencies;
 statistical computation for worked examples uses well-established open methods and committed,
 version-pinned open/synthetic datasets, with results emitted deterministically and checksummed.
@@ -450,7 +450,7 @@ licensing/data gate (for its example dataset) and the biostatistician sign-off b
   controlled-access tiers, identifiable records, copyrighted figures/tables reproduced verbatim.
 - **Toolkit/runtime:** Node/TS, established open statistical methods for example computation; static
   site + PDF generation; CI for reproducibility.
-- **Elyos pieces:** Task JSON schema (`packages/schema`), donated-lane CLI workspace/PR flow
+- **Hee-Lee Oss pieces:** Task JSON schema (`packages/schema`), donated-lane CLI workspace/PR flow
   (`packages/cli`), good-deed definition + refusal guardrails. A future funded lane would use
   `packages/runner` with a hard per-task budget cap (none assumed now).
 - **Sibling-project synergy:** `oncology-data-literacy` (overlapping audience), `oncology-glossary-
@@ -479,7 +479,7 @@ licensing/data gate (for its example dataset) and the biostatistician sign-off b
   CI, the figure/interactive toolkit, and the published explainers + example datasets.
 - **Secrets handling:** open/synthetic datasets and citable sources need no secret credentials. If a
   partner/OER submission ever needs a token, it is supplied by the human submitting and never written
-  to logs, receipts, or committed files (per Elyos rules). A future funded-lane run uses an API key
+  to logs, receipts, or committed files (per Hee-Lee Oss rules). A future funded-lane run uses an API key
   only via `packages/runner` with a hard budget cap; keys never enter logs/receipts.
 - **PII / individual data:** the project needs and stores **no** patient-level data; the only
   leakage paths (non-open example dataset; identifiable curve reconstruction) are closed by the
@@ -487,7 +487,7 @@ licensing/data gate (for its example dataset) and the biostatistician sign-off b
 - **Abuse/misuse prevention:** refuse and flag any task steering the output toward treatment advice,
   patient-specific calculation, evidence grading presented as clinical recommendation, or laundering
   a non-open dataset as open. The content stays descriptive, source-grounded, methods-education-only.
-- **Refusal guardrails (Elyos):** any task drifting into unqualified high-stakes (clinical) advice,
+- **Refusal guardrails (Hee-Lee Oss):** any task drifting into unqualified high-stakes (clinical) advice,
   privacy violation, or license violation is refused and surfaced, not worked around.
 
 ## Sustainability & maintenance
@@ -524,10 +524,10 @@ licensing/data gate (for its example dataset) and the biostatistician sign-off b
 
 ## References
 
-- Elyos work rules — `C:\code\elyos\CLAUDE.md`
-- Good Deed Definition + risk tiers — `C:\code\elyos\docs\good-deed-definition.md`
-- Task JSON schema — `C:\code\elyos\packages\schema\src\schemas.ts`
-- Portfolio roadmap (Track 8, cancer guardrails) — `C:\code\elyos\planning\ROADMAP.md`
+- Hee-Lee Oss work rules — `C:\code\hee-lee-oss\CLAUDE.md`
+- Good Deed Definition + risk tiers — `C:\code\hee-lee-oss\docs\good-deed-definition.md`
+- Task JSON schema — `C:\code\hee-lee-oss\packages\schema\src\schemas.ts`
+- Portfolio roadmap (Track 8, cancer guardrails) — `C:\code\hee-lee-oss\planning\ROADMAP.md`
 - Planning spec — `PLAN_SPEC.md`
 - Reporting guidelines: CONSORT, SAMPL (statistical reporting), STROBE, PRISMA, ICH E9; EQUATOR
   network
@@ -613,7 +613,7 @@ sections above (not deferred). Each cites where it lives.
 
 **Reviewer pass (senior staff engineer + TPM), 2026-06-28.** Reviewed PLAN.md + TASKS.md for
 completeness against `PLAN_SPEC.md` (all 17 H2 sections present and in order), correctness against
-the Elyos rules (`CLAUDE.md`), the good-deed definition + risk tiers, the cancer-track guardrails
+the Hee-Lee Oss rules (`CLAUDE.md`), the good-deed definition + risk tiers, the cancer-track guardrails
 (ROADMAP Track 8), and schema validity (`packages/schema/src/schemas.ts`).
 
 **Checks performed and fixes confirmed:**

@@ -25,7 +25,7 @@
     "PLAN.md — Governance, roles & stakeholders section",
     "TASKS.md — M0 blocking-gate description and reviewer-001 row",
     "tasks/stats-for-clinicians-template-002.json — review block fields",
-    "Elyos good-deed definition: riskTier:medium requires credentialed reviewer sign-off"
+    "Hee-Lee Oss good-deed definition: riskTier:medium requires credentialed reviewer sign-off"
   ],
   "output": "A committed reviewer-roster document (e.g. REVIEWERS.md) naming the statistical-accuracy reviewer(s) and the licensing/provenance reviewer(s), recording their credentials and agreement, and stating the non-skippable sign-off condition. The document unblocks all M0 explainer authoring and review tasks.",
   "requestor": "TO BE SECURED",
