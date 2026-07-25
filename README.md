@@ -6,7 +6,7 @@ Clinicians read trial results every week and act on them, but the **statistics t
 
 **Definition of shipped:** explainers), with 100% reproducible worked examples, complete provenance, verified open-data licensing, accessibility met, and a structural "not clinical advice" frame — **adopted/used by a named beneficiary** (taught from / embedded in a curriculum, journal-club kit, or advocacy
 
-This is a **Hee-Lee Oss** good-deed project. Contributors pull a task, do it with their own coding agent, and open a PR. Get started: https://github.com/Hee-Lee-Oss-Projects/hee-lee-oss-downloads
+This is a **Hee-Lee Oss** good-deed project. Contributors pull a task, do it with their own coding agent, and open a PR. Get started: https://github.com/HeeLeeOss/hee-lee-oss-downloads
 
 ## Plan
 - [PLAN.md](./PLAN.md) — robust enterprise plan (vision, architecture, roadmap, risks; includes an applied-improvements appendix + review sign-off)
@@ -16,7 +16,7 @@ This is a **Hee-Lee Oss** good-deed project. Contributors pull a task, do it wit
 ## Contribute
 ```bash
 hee-lee-oss browse
-hee-lee-oss next --repo Hee-Lee-Oss-Projects/stats-for-clinicians --no-fork
+hee-lee-oss next --repo HeeLeeOss/stats-for-clinicians --no-fork
 ```
 
 ## Licensing & review
